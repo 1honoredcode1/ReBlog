@@ -4,10 +4,10 @@ const NavBar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-between items-center py-5 mx-12 sm:mx-24 xl:mx-38">
+    <div className="flex justify-between items-center py-5 mx-12 sm:mx-24 xl:mx-38 ">
       <img
         onClick={() => navigate("/")}
-        src="/icon.png"
+        src="/logo.png"
         alt="Reblog Icon"
         className="w-14 h-15 cursor-pointer"
       />
